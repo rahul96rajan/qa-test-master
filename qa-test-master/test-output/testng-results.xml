@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+    <line>
+      <![CDATA[[INFO] : Assertion Passed : Rotation is working fine]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] : Assertion Passed : Add New Entry functionality is working fine]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] : Assertion Passed : Not able to add duplicate number]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] : Assertion Passed : Able to read collection]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] : Assertion Passed : Able to increase collection capacity]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] : Assertion Passed : Able to remove entry from collection]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] : Assertion Passed : Can handle remove parameter if collection is empty]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] : Assertion Passed : Collection length is correct]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] : Assertion Passed : Function returns position of entry in collection]]>
+    </line>
+    <line>
+      <![CDATA[[INFO] : Assertion Passed : Function returns -1 if entry is not present]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="100" started-at="2018-07-19T12:30:29Z" finished-at="2018-07-19T12:30:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="100" started-at="2018-07-19T12:30:29Z" finished-at="2018-07-19T12:30:29Z">
+      <class name="testquestion1.Test_MyCollection">
+        <test-method status="PASS" signature="Test10_Rotate_Array()[pri:0, instance:testquestion1.Test_MyCollection@3a82f6ef]" name="Test10_Rotate_Array" duration-ms="16" started-at="2018-07-19T12:30:29Z" description="Left Rotation Collection Functionality" finished-at="2018-07-19T12:30:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO] : Assertion Passed : Rotation is working fine]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test10_Rotate_Array -->
+        <test-method status="PASS" signature="Test1_Able_To_Add_New_Entry_In_Collection()[pri:0, instance:testquestion1.Test_MyCollection@3a82f6ef]" name="Test1_Able_To_Add_New_Entry_In_Collection" duration-ms="0" started-at="2018-07-19T12:30:29Z" description="Check Add functionality" finished-at="2018-07-19T12:30:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO] : Assertion Passed : Add New Entry functionality is working fine]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test1_Able_To_Add_New_Entry_In_Collection -->
+        <test-method status="PASS" signature="Test2_Duplicate_Entry_In_Collection()[pri:0, instance:testquestion1.Test_MyCollection@3a82f6ef]" name="Test2_Duplicate_Entry_In_Collection" duration-ms="0" started-at="2018-07-19T12:30:29Z" description="Check Add functionality" finished-at="2018-07-19T12:30:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO] : Assertion Passed : Not able to add duplicate number]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test2_Duplicate_Entry_In_Collection -->
+        <test-method status="PASS" signature="Test3_Get_Collection_Functionality()[pri:0, instance:testquestion1.Test_MyCollection@3a82f6ef]" name="Test3_Get_Collection_Functionality" duration-ms="0" started-at="2018-07-19T12:30:29Z" description="Check toString function" finished-at="2018-07-19T12:30:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO] : Assertion Passed : Able to read collection]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test3_Get_Collection_Functionality -->
+        <test-method status="PASS" signature="Test4_DoubleCapacity()[pri:0, instance:testquestion1.Test_MyCollection@3a82f6ef]" name="Test4_DoubleCapacity" duration-ms="0" started-at="2018-07-19T12:30:29Z" description="Check Overflow Collection" finished-at="2018-07-19T12:30:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO] : Assertion Passed : Able to increase collection capacity]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test4_DoubleCapacity -->
+        <test-method status="PASS" signature="Test5_Remove_Functionality_If_Entry_Already_Present()[pri:0, instance:testquestion1.Test_MyCollection@3a82f6ef]" name="Test5_Remove_Functionality_If_Entry_Already_Present" duration-ms="0" started-at="2018-07-19T12:30:29Z" description="Check remove functionality" finished-at="2018-07-19T12:30:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO] : Assertion Passed : Able to remove entry from collection]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test5_Remove_Functionality_If_Entry_Already_Present -->
+        <test-method status="PASS" signature="Test6_Remove_Functionality_If_Collection_Is_Empty()[pri:0, instance:testquestion1.Test_MyCollection@3a82f6ef]" name="Test6_Remove_Functionality_If_Collection_Is_Empty" duration-ms="0" started-at="2018-07-19T12:30:29Z" description="Check remove functionality" finished-at="2018-07-19T12:30:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO] : Assertion Passed : Can handle remove parameter if collection is empty]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test6_Remove_Functionality_If_Collection_Is_Empty -->
+        <test-method status="PASS" signature="Test7_Collection_Length_Functionality()[pri:0, instance:testquestion1.Test_MyCollection@3a82f6ef]" name="Test7_Collection_Length_Functionality" duration-ms="0" started-at="2018-07-19T12:30:29Z" description="Size of Collection" finished-at="2018-07-19T12:30:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO] : Assertion Passed : Collection length is correct]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test7_Collection_Length_Functionality -->
+        <test-method status="PASS" signature="Test8_Search_Functionality_If_Enrty_Exists()[pri:0, instance:testquestion1.Test_MyCollection@3a82f6ef]" name="Test8_Search_Functionality_If_Enrty_Exists" duration-ms="0" started-at="2018-07-19T12:30:29Z" description="Search Functionality" finished-at="2018-07-19T12:30:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO] : Assertion Passed : Function returns position of entry in collection]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test8_Search_Functionality_If_Enrty_Exists -->
+        <test-method status="PASS" signature="Test9_Search_Functionality_If_Enrty_Not_Exists()[pri:0, instance:testquestion1.Test_MyCollection@3a82f6ef]" name="Test9_Search_Functionality_If_Enrty_Not_Exists" duration-ms="0" started-at="2018-07-19T12:30:29Z" description="Search Functionality" finished-at="2018-07-19T12:30:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO] : Assertion Passed : Function returns -1 if entry is not present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test9_Search_Functionality_If_Enrty_Not_Exists -->
+      </class> <!-- testquestion1.Test_MyCollection -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
